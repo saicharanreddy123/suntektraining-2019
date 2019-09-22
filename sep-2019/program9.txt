@@ -1,0 +1,20 @@
+#include<stdio.h>
+int n;
+int mul();
+
+int main()
+{
+	printf("enter n value ");
+	scanf("%d",&n);
+	mul();
+	return 0;
+}
+int mul()
+{
+	int n,i;
+	scanf("%d",&n);
+	for(i=1;i<=10;i++)
+	{
+		printf("%d * %d = %d \n",n,i,n*i);
+	}
+}

@@ -1,0 +1,28 @@
+#include<stdio.h>
+int n;
+int sai();
+
+int main()
+{
+printf("enter n values ");
+scanf("%d",&n);
+sai();
+return 0;
+}
+
+int sai()
+{
+int a[n] ;
+int max = 0;
+for(int i = 0; i < n; i++)
+{
+if(i == 1)
+max = i;
+else
+{
+if(a[i] > max)
+max = a[i]; 
+}
+}
+printf("%d",max);
+}

@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+int n;
+int pry();
+
+int main()
+{
+	int n;
+	printf("enter n value");
+	scanf("%d",&n);
+	pry();
+	getch();
+	return 0;
+	
+}
+int pry()
+{
+	int i,j;
+	for(i=1;i<=n;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+		
+			printf("* ");
+		}
+	printf("\n");
+}
+}
